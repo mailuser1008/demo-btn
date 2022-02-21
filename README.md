@@ -4,12 +4,12 @@ Get perfect designs for btn.
 
 #installition
 
-`npm i addDemoBtn --save`
+`npm i add-demo-btn-for-project --save`
 
 Then...
 
 ```
-import {addDemoBtn} from "addDemoBtn";
+import {addDemoBtn} from "add-demo-btn-for-project";
 
 addDemoBtn({
     color: "danger_btn"
