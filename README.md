@@ -4,16 +4,21 @@ Get perfect designs for btn.
 
 #installition
 
-`npm i add-demo-btn-for-project --save`
+`npm i kadirov-btn-package3 --save`
 
 Then...
 
 ```
-import {addDemoBtn} from "add-demo-btn-for-project";
+import { changeBtn } from "kadirov-btn-package3";
 
-addDemoBtn({
-    color: "danger_btn"
+changeButtonStyle({
+    color: "use"
 })
+
+<button class="success">success</button>
+
+
+button class => "danger | success"
 
 ```
 
@@ -21,4 +26,4 @@ addDemoBtn({
 
 We have two options:
 
-- _color_ - danger_btn | success_btn (Defaults to danger_btn)
+- _color_ - danger | success
