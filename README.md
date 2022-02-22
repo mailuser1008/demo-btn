@@ -4,18 +4,18 @@ Get perfect designs for btn.
 
 #installition
 
-`npm i kadirov-btn-package3 --save`
+`npm i kadirov-package-modules --save`
 
 Then...
 
 ```
-import { changeBtn } from "kadirov-btn-package3";
-
-changeButtonStyle({
-    color: "use"
-})
-
 <button class="success">success</button>
+
+<script src="node_modules/kadirov-package-module/index.js"></script>
+
+<script>
+    let f = new changeButtonStyle();
+</script>
 
 
 button class => "danger | success"
